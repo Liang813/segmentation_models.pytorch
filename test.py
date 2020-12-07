@@ -10,5 +10,4 @@ print(bb)
 
 print(torch.sum(aa==bb))
 print(torch.sum(aa==bb) / aa.view(-1).shape[0])
-print(torch.sum(aa==bb, dtype=aa.dtype) / aa.view(-1).shape[0])
 
