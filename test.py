@@ -1,5 +1,4 @@
-
-import torch
+from opt_einsum.backends import torch
 
 aa = torch.zeros((1, 12))
 aa[0][4] = 1
